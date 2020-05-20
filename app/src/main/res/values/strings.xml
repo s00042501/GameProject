@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Disney Characters</string>
+    <string name="game_instructions">Test your memory skill by:\n
+        \n* Selecting a theme\n* Selecting a level\n* Displaying the final score\n* Evaluating the game.
+    </string>
+    <string name="start">Start</string>
+    <string name="select_theme_title">Select your favorite theme</string>
+    <string name="level_two">Level 2 = 12 cards</string>
+    <string name="level_one">Level 1 = 6 cards</string>
+    <string name="level_three">Level 3 = 24 cards</string>
+    <string name="select_your_level">Select your level</string>
+    <string name="close_game">Close the game</string>
+    <string name="congratulation">Congratulation</string>
+    <string name="time">Time:</string>
+    <string name="feedback_question"> Are you happy with this game ?</string>
+
+</resources>

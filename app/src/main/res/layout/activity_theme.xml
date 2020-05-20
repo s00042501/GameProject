@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ThemeActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="173dp"
+        android:layout_marginLeft="173dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="180dp"
+        android:background="#C9AAF6"
+        android:text="@string/select_theme_title"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.456"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_lionking_theme"
+        android:layout_width="227dp"
+        android:layout_height="131dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_toystory_theme"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/lionking_theme1" />
+
+    <ImageView
+        android:id="@+id/img_frozen_theme"
+        android:layout_width="259dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="24dp"
+        android:onClick="callLevelActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/frozentheme1" />
+
+    <ImageView
+        android:id="@+id/img_toystory_theme"
+        android:layout_width="258dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_frozen_theme"
+        app:srcCompat="@drawable/toystorytheme12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

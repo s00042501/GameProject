@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".LevelActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="72dp"
+        android:background="#C9AAF6"
+        android:gravity="center"
+        android:text="@string/select_your_level"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_level_one"
+        android:layout_width="245dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/yellow"
+        android:gravity="center"
+        android:onClick="callGameActivity"
+        android:text="@string/level_one"
+        android:textColor="#0E0E0E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="239dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/light_green"
+        android:gravity="center"
+        android:text="@string/level_two"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_level_one" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="240dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="44dp"
+        android:background="#C7F4FA"
+        android:gravity="center"
+        android:text="@string/level_three"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
